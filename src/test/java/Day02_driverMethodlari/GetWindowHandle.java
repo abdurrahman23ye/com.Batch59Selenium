@@ -13,5 +13,9 @@ public class GetWindowHandle {
 
         System.out.println(driver.getWindowHandle());//Benzersiz olarak açılan windowun hascodunu verir
         //Bu kodlarla sayfalar arasında dolaşırız.
+
+        driver.close();//son açılan tabı kapatır.
+
+        driver.quit();//bütün tablari kapatir.
     }
 }
